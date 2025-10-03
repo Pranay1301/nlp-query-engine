@@ -8,9 +8,10 @@ The core challenge, as outlined in the AI Engineering assignment, was to build a
 
 ---
 
-## 🎥 Live Demo
+## 🎥 Live Demo & Application
 
-[**Watch the 5-minute Loom video demo here**](https://www.loom.com/share/your-video-link)
+- [**View the Live Application Here**](https://ae6x6hz3w6.skywork.website/)
+- [**Watch the 5-minute Loom video demo here**](https://www.loom.com/share/your-video-link)
 
 ---
 
@@ -96,69 +97,4 @@ Follow these instructions to set up and run the project locally.
     supabase db push
     ```
 
-5.  **Set Up Environment Variables for Edge Functions**:
-    * Create a `.env` file for your edge functions and add your project's service role key.
-    ```bash
-    # Inside the /backend/supabase/edge_function/ directory
-    cp tests/env.example .env
-    ```
-    * Edit the new `.env` file and add your Supabase URL and service key.
-    ```.env
-    SUPABASE_URL="[https://your-project-url.supabase.co](https://your-project-url.supabase.co)"
-    SUPABASE_SERVICE_ROLE_KEY="your-service-role-key"
-    ```
-
-6.  **Deploy Edge Functions**:
-    * This command deploys all the backend logic.
-    ```bash
-    # Run from the /backend/supabase/ directory
-    supabase functions deploy --project-ref YOUR_PROJECT_ID
-    ```
-
-### 2. Frontend Setup (React)
-
-1.  **Navigate to the Frontend Directory**:
-    ```bash
-    # From the project root
-    cd frontend
-    ```
-
-2.  **Install Dependencies**:
-    ```bash
-    npm install
-    ```
-
-3.  **Configure Environment Variables**:
-    * Create a `.env` file in the `frontend` directory.
-    * Add your Supabase URL and anon key.
-    ```.env
-    VITE_SUPABASE_URL="[https://your-project-url.supabase.co](https://your-project-url.supabase.co)"
-    VITE_SUPABASE_ANON_KEY="your-anon-key"
-    ```
-
-4.  **Run the Development Server**:
-    ```bash
-    npm run dev
-    ```
-    The application should now be running at `http://localhost:8080`.
-
----
-
-## 🕹️ Usage
-
-1.  **Sign Up / Sign In**: Create an account or log in.
-2.  **Connect Data**:
-    * Navigate to the **Connect Data** tab.
-    * In the **Database Connection** panel, enter a connection name and a valid PostgreSQL connection string. Click "Connect & Analyze."
-    * In the **Document Upload** panel, drag and drop PDF, DOCX, or other supported files.
-3.  **Query Your Data**:
-    * Navigate to the **Query Interface** tab.
-    * Type a question in plain English (e.g., "How many employees are in engineering?") and press Enter or click the "Query" button.
-4.  **View Metrics**:
-    * Go to the **Metrics** tab to see performance statistics and usage data.
-
----
-
-## 📂 Project Structure
-
-The project is organized into `backend` and `frontend` directories as required by the assignment.
+5.  **Set Up
