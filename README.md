@@ -8,10 +8,10 @@ The core challenge, as outlined in the AI Engineering assignment, was to build a
 
 ---
 
-## 🎥 Live Demo & Application
+## Application
 
 - [**View the Live Application Here**](https://ae6x6hz3w6.skywork.website/)
-- [**Watch the 5-minute Loom video demo here**](https://www.loom.com/share/your-video-link)
+
 
 ---
 
